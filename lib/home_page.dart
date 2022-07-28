@@ -15,8 +15,7 @@ class HomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          const SizedBox(height: 20),
-          //header
+          const SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Column(
@@ -42,11 +41,11 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
-          //divider
+         
           const Padding(
               padding: EdgeInsets.only(left: 20, right: 20), child: Divider()),
           const SizedBox(height: 100),
-          //total
+       
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Row(

@@ -3,7 +3,7 @@ import 'package:flutter_shopping_cart/home_page.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'data_class.dart';
-import 'package:flutter/widgets.dart';
+
 
 
 void main() {
